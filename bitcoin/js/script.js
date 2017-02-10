@@ -1,5 +1,6 @@
 function info() 
 {
+    document.getElementById("info").innerHTML = "";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -14,6 +15,7 @@ function info()
 
 function blockchaininfo()
 {
+     document.getElementById("blockchaininfo").innerHTML = "";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
