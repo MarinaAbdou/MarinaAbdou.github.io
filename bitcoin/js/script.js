@@ -56,7 +56,7 @@ function peerinfo()
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://api.blockcypher.com/v1/btc/main",
+		url : "http://bitcoin.mubiz.com/info",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
@@ -64,7 +64,7 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.height);
+			$('#bitcoin_block_number').append(data.blocks);
 		},
 
 		error : function(xhr, status, err) {
