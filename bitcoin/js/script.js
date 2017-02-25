@@ -1,21 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @fantadans
- Sign out
- Watch 0
-  Star 0
-  Fork 0 MarinaAbdou/MarinaAbdou.github.io
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathMarinaAbdou.github.io/bitcoin/js/script.js
-cc2a68e  14 days ago
-@MarinaAbdou MarinaAbdou Update script.js
-1 contributor
-RawBlameHistory
-28 lines (26 sloc)  882 Bytes
 function info()
 {
     var xmlhttp = new XMLHttpRequest();
@@ -71,5 +53,3 @@ function peerinfo()
     xmlhttp.open("GET", "https://www.youtube.com/watch?v=FrLequ6dUdM", true);
     xmlhttp.send();
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
