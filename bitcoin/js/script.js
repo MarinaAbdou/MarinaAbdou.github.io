@@ -50,6 +50,6 @@ function peerinfo()
         document.getElementById("contenu").innerHTML = jsonPretty;
     }
     };
-    xmlhttp.open("GET", "https://www.youtube.com/watch?v=FrLequ6dUdM", true);
+    xmlhttp.open("GET", "http://bitcoin.mubiz.com/peerinfo", true);
     xmlhttp.send();
 }
